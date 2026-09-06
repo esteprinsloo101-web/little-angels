@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Little Angels — Kids Letters, Numbers & Shapes Practice (SA)</title>
+  <meta name="description" content="Warm, calm practice games for South African kids ages 4–9: letters, numbers, shapes, sight words, and counting. Enrichment only — not a school." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <div class="logo">Little <span>Angels</span></div>
+      <p class="tagline">Gentle practice for little learners · Ages 4–9</p>
+    </header>
+
+    <div class="disclaimer-bar">
+      Practice &amp; enrichment only · Parent/guardian supervised · Not CAPS-certified · Not DBE-approved · Not a school or teacher replacement · No grade guarantees
+    </div>
+
+    <div id="home-view">
+      <p style="text-align:center;color:var(--ink-soft);margin-bottom:0.75rem;font-size:0.9rem;">Choose an age band</p>
+      <div class="age-picker">
+        <button type="button" class="age-btn active" data-age="4-5">Ages 4–5</button>
+        <button type="button" class="age-btn" data-age="6-7">Ages 6–7</button>
+        <button type="button" class="age-btn" data-age="8-9">Ages 8–9</button>
+      </div>
+
+      <div class="stars-bar">
+        <span>⭐ Progress stars:</span>
+        <span class="count" id="star-count">0</span>
+      </div>
+
+      <div class="modules">
+        <a href="#" class="mod-card letters" id="mod-letters">
+          <span class="emoji">🔤</span>
+          <h3>Letters</h3>
+          <p>Match &amp; find A–Z</p>
+        </a>
+        <a href="#" class="mod-card numbers" id="mod-numbers">
+          <span class="emoji">🔢</span>
+          <h3>Numbers</h3>
+          <p>Find 1–20</p>
+        </a>
+        <a href="#" class="mod-card shapes" id="mod-shapes">
+          <span class="emoji">🔷</span>
+          <h3>Shapes</h3>
+          <p>Circle, square &amp; more</p>
+        </a>
+        <a href="#" class="mod-card words" id="mod-words">
+          <span class="emoji">📖</span>
+          <h3>Sight words</h3>
+          <p>EN · isiXhosa · Afrikaans</p>
+        </a>
+        <a href="#" class="mod-card count" id="mod-count">
+          <span class="emoji">🐣</span>
+          <h3>Counting</h3>
+          <p>How many do you see?</p>
+        </a>
+      </div>
+
+      <div class="cta-box">
+        <h2>Want Grade R printables &amp; a 10-minute routine?</h2>
+        <p>Get the full Grade R Practice Pack — worksheets, word cards, and a calm parent guide for South African homes.</p>
+        <a class="btn" href="https://gumroad.com/l/PLACEHOLDER-little-angels" rel="noopener">Get the full pack · R99</a>
+        <div class="nav-links">
+          <a href="tips.html">Parent tip sheet</a>
+          <a href="pack/README.md">What’s in the pack</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Letters -->
+    <div class="practice-view" id="practice-letters">
+      <button type="button" class="back-btn">← Back home</button>
+      <div class="practice-card">
+        <h2>Letters</h2>
+        <p id="letter-hint" style="color:var(--ink-soft)">Tap the same letter</p>
+        <div class="prompt-big" id="letter-prompt">A</div>
+        <div class="choices" id="letter-choices"></div>
+        <div class="feedback" id="letter-feedback"></div>
+        <div class="controls">
+          <button type="button" class="btn secondary" id="next-letter">Next letter</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Numbers -->
+    <div class="practice-view" id="practice-numbers">
+      <button type="button" class="back-btn">← Back home</button>
+      <div class="practice-card">
+        <h2>Numbers</h2>
+        <p id="number-hint" style="color:var(--ink-soft)">Find this number</p>
+        <div class="prompt-big" id="number-prompt">1</div>
+        <div class="choices" id="number-choices"></div>
+        <div class="feedback" id="number-feedback"></div>
+        <div class="controls">
+          <button type="button" class="btn secondary" id="next-number">Next number</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shapes -->
+    <div class="practice-view" id="practice-shapes">
+      <button type="button" class="back-btn">← Back home</button>
+      <div class="practice-card">
+        <h2>Shapes</h2>
+        <p id="shape-hint" style="color:var(--ink-soft)">What shape is this?</p>
+        <div class="shape-visual circle" id="shape-visual"></div>
+        <div class="choices" id="shape-choices"></div>
+        <div class="feedback" id="shape-feedback"></div>
+        <div class="controls">
+          <button type="button" class="btn secondary" id="next-shape">Next shape</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Words -->
+    <div class="practice-view" id="practice-words">
+      <button type="button" class="back-btn">← Back home</button>
+      <div class="practice-card">
+        <h2>Sight words</h2>
+        <div class="lang-tabs">
+          <button type="button" class="lang-tab active" data-lang="en">English</button>
+          <button type="button" class="lang-tab" data-lang="xh">isiXhosa</button>
+          <button type="button" class="lang-tab" data-lang="af">Afrikaans</button>
+        </div>
+        <p id="word-hint" style="color:var(--ink-soft)">Read this word</p>
+        <div class="word-card-display" id="word-display">the</div>
+        <div class="choices" id="word-choices"></div>
+        <div class="feedback" id="word-feedback"></div>
+        <div class="controls">
+          <button type="button" class="btn secondary" id="next-word">Next word</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Counting -->
+    <div class="practice-view" id="practice-count">
+      <button type="button" class="back-btn">← Back home</button>
+      <div class="practice-card">
+        <h2>Counting game</h2>
+        <p id="count-hint" style="color:var(--ink-soft)">How many do you see?</p>
+        <div class="count-items" id="count-items"></div>
+        <div class="choices" id="count-choices"></div>
+        <div class="feedback" id="count-feedback"></div>
+        <div class="controls">
+          <button type="button" class="btn secondary" id="next-count">Next round</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site">
+    <p>Disclaimer: Little Angels provides optional practice and enrichment activities for South African families. It is not CAPS-aligned or CAPS-certified, not approved by the Department of Basic Education, and not a school, aftercare, or registered tutoring service. It does not replace classroom teaching or official assessments. Learning outcomes are not guaranteed. Content is for parent/guardian-supervised use. We do not provide formal education advice. If the app collects any personal information, a parent/guardian must consent; keep child data minimal and private (POPIA). The seller is not liable for how you use these materials.</p>
+    <p style="margin-top:0.5rem;">Faceless brand · Calm home practice · Progress stars saved on this device only (no child accounts).</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

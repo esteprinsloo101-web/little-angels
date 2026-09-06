@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Letter Match Hunt — Little Angels</title>
+<style>
+@page { size: A4; margin: 12mm; }
+* { box-sizing: border-box; }
+body { font-family: "Segoe UI", system-ui, sans-serif; color: #4A3F35; margin: 0; padding: 8mm; }
+h1 { font-size: 1.4rem; margin: 0 0 0.25rem; color: #E8907A; }
+.sub { font-size: 0.85rem; color: #6B5E52; margin-bottom: 1rem; }
+.disclaimer { font-size: 0.7rem; color: #6B5E52; border-top: 1px solid #FFE4D6; margin-top: 1.5rem; padding-top: 0.5rem; }
+.grid { display: grid; gap: 10px; }
+.trace { border: 2px dashed #F4A896; border-radius: 12px; min-height: 64px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: 700; color: #DDD0C8; }
+.box { border: 2px solid #FFE4D6; border-radius: 10px; padding: 8px; text-align: center; min-height: 48px; }
+.card { border: 2px solid #E0D4F0; border-radius: 12px; padding: 12px; text-align: center; break-inside: avoid; }
+.card .word { font-size: 1.6rem; font-weight: 700; }
+.card .lang { font-size: 0.7rem; color: #6B5E52; text-transform: uppercase; letter-spacing: 0.05em; }
+@media print { .noprint { display: none; } body { padding: 0; } }
+
+.row { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+.target { font-size: 2rem; font-weight: 700; width: 48px; color: #F4A896; }
+.opts span { display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; border: 2px solid #FFE4D6; border-radius: 8px; margin: 2px; font-size: 1.3rem; font-weight: 600; }
+</style></head><body>
+<h1>Letter match hunt</h1>
+<p class="sub">Circle the letter that matches the big one. Enrichment practice only.</p>
+<div class="row"><div class="target">M</div><div class="opts"><span>N</span><span>M</span><span>W</span><span>H</span></div></div>
+<div class="row"><div class="target">S</div><div class="opts"><span>S</span><span>Z</span><span>5</span><span>C</span></div></div>
+<div class="row"><div class="target">b</div><div class="opts"><span>d</span><span>p</span><span>b</span><span>q</span></div></div>
+<div class="row"><div class="target">P</div><div class="opts"><span>R</span><span>B</span><span>P</span><span>D</span></div></div>
+<div class="row"><div class="target">a</div><div class="opts"><span>o</span><span>a</span><span>e</span><span>c</span></div></div>
+<div class="row"><div class="target">T</div><div class="opts"><span>I</span><span>L</span><span>T</span><span>J</span></div></div>
+<p class="sub" style="margin-top:1rem;">Bonus: Find 3 letter <strong>S</strong> shapes in your kitchen (with a grown-up).</p>
+<p class="disclaimer">Little Angels · Practice &amp; enrichment only · Not CAPS-certified · Not a substitute for a teacher · Parent/guardian supervised</p>
+</body></html>

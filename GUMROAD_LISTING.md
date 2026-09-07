@@ -5,6 +5,7 @@ Owner action: **HOLD tonight** — leave listing ready; create product after Gum
 Product: Little Angels — Grade R Foundation Practice Micro-Pack  
 Price: **R99**  
 Pack zip: `/workspace/little-angels/LittleAngels_Foundation_Practice_Pack.zip` (also copied under plain-desk-products if present)  
+QA: adversarial PASS · rounds 3 · 2026-09-06 · by Quill (title age-band fixed to Grade R / ~4–6; Scout SEO + Legal fence)
 Note: Free web practice (ages 4–9) is separate; paid pack = Grade R / ages 4–6 first. Faceless · COI-safe.
 
 ---
@@ -13,12 +14,12 @@ Note: Free web practice (ages 4–9) is separate; paid pack = Grade R / ages 4�
 
 ## Title
 ```
-Little Angels SA | Kids Letters Numbers Shapes Practice Pack (Ages 4–9)
+Little Angels SA | Grade R Practice Pack for Home (Printable PDF)
 ```
 
 ## Subtitle
 ```
-Grade R micro-pack · letters · numbers · shapes · EN/isiXhosa/Afrikaans word cards · parent answer key · R99
+Foundation Phase–friendly enrichment worksheets for parents at home — practice only, not a school curriculum · R99
 ```
 
 ## Price
@@ -55,7 +56,7 @@ Free companion web games available separately (on-device stars; no child account
 ```
 
 ## Bullets
-- Grade R / ages ~4–6 printable micro-pack
+- Grade R / ages ~4–6 printable micro-pack (web games ~4–9 are free/separate)
 - Letters, numbers, shapes + counting
 - Simple EN / isiXhosa / Afrikaans word cards
 - 10-minute daily routine + stars chart
@@ -87,7 +88,7 @@ A: Simple English, isiXhosa, and Afrikaans word cards for exposure — not a ful
 
 ## SEO tags / keywords
 ```
-kids worksheets south africa, grade R practice, letters numbers shapes printable, preschool worksheets SA, isiXhosa word cards, afrikaans sight words, foundation phase enrichment, little angels SA, parent printable pack, counting worksheet kids
+Grade R worksheets, printable homework parents, foundation phase practice, numeracy at home, phonics printable, school readiness SA, enrichment pack, fine motor, letters numbers shapes printable, isiXhosa word cards, little angels SA
 ```
 
 ## Suggested SEO keywords (top 8)

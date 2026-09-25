@@ -57,3 +57,5 @@ Gumroad: paste from `GUMROAD_LISTING.md` · **do not create product tonight if d
 - Age band picker: 4–5, 6–7, 8–9  
 - Letters · Numbers · Shapes · Sight words (EN/XH/AF) · Counting  
 - Progress stars in `localStorage` (device-only; no child accounts)
+
+> **2026-09-25:** paid pack files (`pack/`, zip) removed from this public repo/site. Buyers get them via Gumroad only.

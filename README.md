@@ -4,7 +4,7 @@ Faceless South African kids **practice & enrichment** product — free web games
 
 **Audience:** SA parents/caregivers · free web ~ages 4–9 · paid pack **Grade R / ages ~4–6**  
 **Price:** R99 (Gumroad — create after daily limit reset)  
-**COI-safe:** no mining/Tronox · no founder face/name on product
+**COI-safe:** no mining or industrial content · no founder face/name on product
 
 ## Legal fence (required)
 

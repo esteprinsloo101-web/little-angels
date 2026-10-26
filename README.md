@@ -39,7 +39,7 @@ python3 -m http.server 8080 --directory /workspace/little-angels
 
 | Item | Value |
 |------|--------|
-| Org/user | `esteprinsloo101-web` |
+| Publisher | Plain Desk |
 | Repo | `little-angels` (public) |
 | Branch | `main` |
 | Pages source | Deploy from branch `main` / root `/` |

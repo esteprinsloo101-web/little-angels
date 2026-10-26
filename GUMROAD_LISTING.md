@@ -6,7 +6,7 @@ Product: Little Angels — Grade R Foundation Practice Micro-Pack
 Price: **R99**  
 Pack zip: `/workspace/little-angels/LittleAngels_Foundation_Practice_Pack.zip` (also copied under plain-desk-products if present)  
 QA: adversarial PASS · rounds 3 · 2026-09-06 · by Quill (title age-band fixed to Grade R / ~4–6; Scout SEO + Legal fence)
-Note: Free web practice (ages 4–9) is separate; paid pack = Grade R / ages 4–6 first. Faceless · COI-safe.
+Note: Free web practice (ages 4–9) is separate; paid pack = Grade R / ages 4–6 first. Faceless.
 
 ---
 
